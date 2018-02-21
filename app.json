@@ -14,7 +14,7 @@
     },
     "FLOWER_EMAIL_DOMAIN": {
       "description": "Pattern for emails allowed",
-      "value": ".*@example\.com"
+      "value": ".*@example\\.com"
     },
     "FLOWER_OAUTH2_KEY": {
       "description": "Credentials from your Google Developer Console",
