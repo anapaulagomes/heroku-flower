@@ -1,6 +1,6 @@
 {
   "name": "Flower",
-  "description": "Flower is a web based tool for monitoring and administrating Celery clusters.",
+  "description": "Flower is a web based tool for monitoring and administrating Celery clusters. All configuration was made based on the docs: http://flower.readthedocs.io/en/latest/auth.html#google-oauth-2-0",
   "keywords": [
     "celery",
     "monitor"
@@ -12,9 +12,21 @@
       "description": "Default broker URL.",
       "value": ""
     },
-    "FLOWER_BASIC_AUTH": {
-      "description": "Enables HTTP Basic authentication. Comma separated list of username:password",
-      "value": "admin:abc123"
+    "FLOWER_EMAIL_DOMAIN": {
+      "description": "Pattern for emails allowed",
+      "value": ".*@example\.com"
+    },
+    "FLOWER_OAUTH2_KEY": {
+      "description": "Credentials from your Google Developer Console",
+      "value": "secrets.bla.google.bla"
+    },
+    "FLOWER_OAUTH2_SECRET": {
+      "description": "Credentials from your Google Developer Console",
+      "value": "itsasecret"
+    },
+    "FLOWER_OAUTH2_REDIRECT_URI": {
+      "description": "The redirect_uri associated to you key and secret",
+      "value": "iamanexample.org/complete/google-oauth2/"
     }
   }
 }
