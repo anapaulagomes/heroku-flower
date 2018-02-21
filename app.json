@@ -1,6 +1,6 @@
 {
   "name": "Flower",
-  "description": "Flower is a web based tool for monitoring and administrating Celery clusters. All configuration was made based on the docs: http://flower.readthedocs.io/en/latest/auth.html#google-oauth-2-0",
+  "description": "Flower is a web based tool for monitoring and administrating Celery clusters.",
   "keywords": [
     "celery",
     "monitor"
