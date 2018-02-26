@@ -26,7 +26,7 @@
     },
     "FLOWER_OAUTH2_REDIRECT_URI": {
       "description": "The redirect_uri associated to you key and secret",
-      "value": "iamanexample.org/complete/google-oauth2/"
+      "value": "iamanexample.org/login"
     }
   }
 }
